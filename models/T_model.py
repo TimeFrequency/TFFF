@@ -2,6 +2,7 @@ import math
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+"Only use time-domain information or frequency information"
 
 
 class BasicBlock(nn.Module):
